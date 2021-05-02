@@ -1,0 +1,37 @@
+@import "../constants"
+
+#about-content
+  display: inline-block
+
+  & > div
+    margin-left: $sides
+
+    & > div:first-child
+      width: calc(100% - 2 * #{$sides} - 415px)
+
+    p
+      text-align: left
+
+  #about-us-info
+    margin-top: 8%
+    margin-bottom: 6%
+    display: inline-flex
+    flex-direction: row
+    align-items: center
+
+    p:first-child
+      font-size: 50px
+      margin-bottom: 2%
+
+    #about-logo
+      animation: spin 60s linear infinite
+
+      @keyframes spin
+        0%
+          transform: rotate(0)
+        100%
+          transform: rotate(360deg)
+
+p.text
+  font-size: 40px
+

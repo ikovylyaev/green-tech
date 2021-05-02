@@ -1,0 +1,44 @@
+@import "src/components/constants"
+
+@mixin single-line-text($size)
+  font-size: $size
+  line-height: $size * 0.75
+
+
+.values-grid
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: stretch
+  gap: 52px
+  position: relative
+
+  #values-circle
+    position: absolute
+    top: 0
+    left: 0
+    transform-origin: 0 0
+    animation: spin-top-left 60s linear infinite
+
+    @keyframes spin-top-left
+        0%
+          transform: rotate(0) translateX(-50%) translateY(-50%)
+        100%
+          transform: rotate(360deg) translateX(-50%) translateY(-50%)
+
+  & > *
+    flex: 1
+
+  .content
+    min-height: 400px
+
+    .values-number
+      @include single-line-text(80px)
+
+    .values-content
+      @include single-line-text(60px)
+      margin-bottom: 20px
+
+    p
+      font-size: 20px
+

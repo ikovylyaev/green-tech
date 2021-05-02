@@ -1,0 +1,53 @@
+@import "src/components/constants"
+
+.about-list
+  width: 100%
+  display: inline-flex
+  flex-direction: row
+  margin-bottom: 15vh
+
+  .about-content,
+  .about-li
+    flex: 1
+
+
+  .about-titles
+    display: flex
+    flex-direction: column
+    justify-content: stretch
+
+  .about-content > div
+    height: 100%
+    width: 85%
+
+  .about-elements
+    font-size: 36px
+    text-align: left
+    margin-left: (1 / 12) * 100vw
+
+
+    .about-title
+      margin: 13px 0
+
+
+      &.underline
+        text-decoration: underline
+
+      &.line:before
+        content: "-"
+        display: inline-block
+
+  li
+    list-style-type: none
+    display: block
+    margin: 26px 0
+    max-width: 60%
+
+    &:before
+      content: "-"
+      display: inline-block
+
+
+.text
+  text-align: left
+  margin-left: $sides
