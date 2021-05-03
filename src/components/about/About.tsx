@@ -1,6 +1,7 @@
 import React, {FC} from "react";
 import "./About.sass"
 import {ReactComponent as AboutLogo} from "../../res/about.svg"
+import {ReactComponent as AboutFlash} from "../../res/flash.svg"
 import AboutList from "./about-list/AboutList";
 import {DataHelper} from "../../utils/DataHelper";
 import {EnterData, PartnersData, ValuesData} from "../../utils/types";
@@ -26,6 +27,7 @@ const About: FC = () => {
                         и энергетикой, нацеленных на сохранение природы. </p>
                 </div>
                 <AboutLogo id="about-logo"/>
+                <AboutFlash id="about-flash" style={{width: 107, height: 163}}/>
             </div>
             <AboutList title="чему мы учим" groups={DataHelper.teach()}/>
             <AboutList

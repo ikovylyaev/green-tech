@@ -17,6 +17,7 @@ export class DataHelper {
         ]
     }
 
+
     static partners(): AboutListInfo<PartnersData> {
         return {
             titles: [
@@ -35,7 +36,7 @@ export class DataHelper {
                     imageTop: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                     title: "glebik8",
                     name: "1917",
-                    text: "Частная собственность, классы и государство существовали не всегда, а возникли на определённой ступени экономического развития.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
@@ -43,7 +44,7 @@ export class DataHelper {
                     imageTop: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                     title: "v8tenko",
                     name: "1924",
-                    text: "Государство в руках господствующих классов всегда является лишь орудием насилия, угнетения широких масс народа.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
@@ -51,7 +52,7 @@ export class DataHelper {
                     imageTop: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                     title: "i love anime",
                     name: "1962",
-                    text: "Классы должны неизбежно исчезнуть так же, как неизбежно они в прошлом возникли. С исчезновением классов неизбежно исчезнет государство.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
@@ -59,7 +60,7 @@ export class DataHelper {
                     imageTop: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                     title: "glebik8",
                     name: "1917",
-                    text: "Частная собственность, классы и государство существовали не всегда, а возникли на определённой ступени экономического развития.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
@@ -67,7 +68,7 @@ export class DataHelper {
                     imageTop: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                     title: "v8tenko",
                     name: "1924",
-                    text: "Государство в руках господствующих классов всегда является лишь орудием насилия, угнетения широких масс народа.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
@@ -75,7 +76,7 @@ export class DataHelper {
                     imageTop: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                     title: "i love anime",
                     name: "1962",
-                    text: "Классы должны неизбежно исчезнуть так же, как неизбежно они в прошлом возникли. С исчезновением классов неизбежно исчезнет государство.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
@@ -83,7 +84,7 @@ export class DataHelper {
                     imageTop: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                     title: "glebik8",
                     name: "1917",
-                    text: "Частная собственность, классы и государство существовали не всегда, а возникли на определённой ступени экономического развития.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
@@ -91,7 +92,7 @@ export class DataHelper {
                     imageTop: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                     title: "v8tenko",
                     name: "1924",
-                    text: "Государство в руках господствующих классов всегда является лишь орудием насилия, угнетения широких масс народа.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
             ]
@@ -110,25 +111,25 @@ export class DataHelper {
                 {
                     number: 1,
                     title: "открытость",
-                    text: "Буржуазный национализм и пролетарский интернационализм — вот два непримиримо-враждебные лозунга, соответствующие двум великим классовым лагерям всего капиталистического мира и выражающие две политики в национальном вопросе.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     image: "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80"
                 },
                 {
                     number: 2,
                     title: "интеграция",
-                    text: "Буржуазный национализм и пролетарский интернационализм — вот два непримиримо-враждебные лозунга, соответствующие двум великим классовым лагерям всего капиталистического мира и выражающие две политики в национальном вопросе.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     image: "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80"
                 },
                 {
                     number: 3,
                     title: "личность",
-                    text: "наша цель - создание активных, конкурентноспособных специалистов, которые могут применить свои знания в различных сферах во время обучения и после него.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     image: "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80"
                 },
                 {
                     number: 4,
                     title: "любовь",
-                    text: "Буржуазный национализм и пролетарский интернационализм — вот два непримиримо-враждебные лозунга, соответствующие двум великим классовым лагерям всего капиталистического мира и выражающие две политики в национальном вопросе.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     image: "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80"
                 }
             ]
