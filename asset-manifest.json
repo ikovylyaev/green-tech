@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/green-tech/static/css/main.a46ed583.chunk.css",
-    "main.js": "/green-tech/static/js/main.9c2f9d76.chunk.js",
-    "main.js.map": "/green-tech/static/js/main.9c2f9d76.chunk.js.map",
-    "runtime-main.js": "/green-tech/static/js/runtime-main.ec85d09d.js",
-    "runtime-main.js.map": "/green-tech/static/js/runtime-main.ec85d09d.js.map",
-    "static/js/2.6c07cd30.chunk.js": "/green-tech/static/js/2.6c07cd30.chunk.js",
-    "static/js/2.6c07cd30.chunk.js.map": "/green-tech/static/js/2.6c07cd30.chunk.js.map",
-    "static/js/3.0afcdcc4.chunk.js": "/green-tech/static/js/3.0afcdcc4.chunk.js",
-    "static/js/3.0afcdcc4.chunk.js.map": "/green-tech/static/js/3.0afcdcc4.chunk.js.map",
+    "main.css": "/green-tech/static/css/main.7c949c93.chunk.css",
+    "main.js": "/green-tech/static/js/main.b82e5629.chunk.js",
+    "main.js.map": "/green-tech/static/js/main.b82e5629.chunk.js.map",
+    "runtime-main.js": "/green-tech/static/js/runtime-main.70273643.js",
+    "runtime-main.js.map": "/green-tech/static/js/runtime-main.70273643.js.map",
+    "static/js/2.6921f86e.chunk.js": "/green-tech/static/js/2.6921f86e.chunk.js",
+    "static/js/2.6921f86e.chunk.js.map": "/green-tech/static/js/2.6921f86e.chunk.js.map",
+    "static/js/3.223467dd.chunk.js": "/green-tech/static/js/3.223467dd.chunk.js",
+    "static/js/3.223467dd.chunk.js.map": "/green-tech/static/js/3.223467dd.chunk.js.map",
     "index.html": "/green-tech/index.html",
-    "static/css/main.a46ed583.chunk.css.map": "/green-tech/static/css/main.a46ed583.chunk.css.map",
-    "static/js/2.6c07cd30.chunk.js.LICENSE.txt": "/green-tech/static/js/2.6c07cd30.chunk.js.LICENSE.txt",
+    "static/css/main.7c949c93.chunk.css.map": "/green-tech/static/css/main.7c949c93.chunk.css.map",
+    "static/js/2.6921f86e.chunk.js.LICENSE.txt": "/green-tech/static/js/2.6921f86e.chunk.js.LICENSE.txt",
     "static/media/about.c09af363.svg": "/green-tech/static/media/about.c09af363.svg",
     "static/media/cicrlce.ef0610a9.svg": "/green-tech/static/media/cicrlce.ef0610a9.svg",
     "static/media/flash.6fd038b9.svg": "/green-tech/static/media/flash.6fd038b9.svg",
-    "static/media/itmo.67076578.svg": "/green-tech/static/media/itmo.67076578.svg",
     "static/media/left.09d7bd8a.png": "/green-tech/static/media/left.09d7bd8a.png",
     "static/media/logo.773d1adf.svg": "/green-tech/static/media/logo.773d1adf.svg",
     "static/media/out.a1571ced.svg": "/green-tech/static/media/out.a1571ced.svg",
@@ -24,9 +23,9 @@
     "static/media/values.17bf37c6.png": "/green-tech/static/media/values.17bf37c6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec85d09d.js",
-    "static/js/2.6c07cd30.chunk.js",
-    "static/css/main.a46ed583.chunk.css",
-    "static/js/main.9c2f9d76.chunk.js"
+    "static/js/runtime-main.70273643.js",
+    "static/js/2.6921f86e.chunk.js",
+    "static/css/main.7c949c93.chunk.css",
+    "static/js/main.b82e5629.chunk.js"
   ]
 }
