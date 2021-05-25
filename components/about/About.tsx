@@ -26,7 +26,7 @@ const About: FC = () => {
                 </div>
                 <div className="center">
                     <Image width={415} height={415} src="/res/about.svg" id="about-logo" alt=""/>
-                    <Image width={107} height={163} src="/res/flash.svg" alt="" id="about-flash"/>
+                    <img width={107} height={163} src="/res/flash.svg" alt="" id="about-flash"/>
                 </div>
             </div>
             <AboutList title="чему мы учим" groups={DataHelper.teach()}/>

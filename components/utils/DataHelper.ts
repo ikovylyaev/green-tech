@@ -1,7 +1,4 @@
 import {AboutListInfo, EnterData, PartnersData, ValuesData} from "./types"
-import left from "../res/top.png"
-import top from "../res/left.png"
-import values from "../res/values.png"
 
 
 export class DataHelper {
@@ -23,6 +20,7 @@ export class DataHelper {
 
 
     static partners(): AboutListInfo<PartnersData> {
+        let left = '/res/top.png', top = '/res/left.png'
         return {
             titles: [
                 ["ооо «рексам-всеволожск»", null],
@@ -111,6 +109,7 @@ export class DataHelper {
     }
 
     static values(): AboutListInfo<ValuesData> {
+        let values = '/res/values.png'
         return {
             titles: [
                 ["открытость", null],

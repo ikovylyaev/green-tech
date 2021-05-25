@@ -1,6 +1,7 @@
 import React, {FC} from "react";
 import {PartnersData} from "../../../../utils/types";
 import {isMobileOnly} from "react-device-detect";
+import Image from 'next/image'
 
 export interface PartnersPlaceholderProps {
     content: PartnersData
@@ -36,29 +37,26 @@ const PartnersPlaceholder: FC<PartnersPlaceholderProps> = ({content}: PartnersPl
             }}/>
             <div className="div3">
                 <div className="header">
-                    <div>
-                        <div className="center">
-                            <img src="/res/flash.svg" alt="flash"/>
-                        </div>
-                        <div className="partners-titles column">
-                            <h3> {content.name} </h3>
-                            <p> {content.title} </p>
-                        </div>
+                    <div className="center">
+                        <Image width={flashSize.width} height={flashSize.height} src="/res/flash.svg" alt="flash"/>
                     </div>
-                    <p> {content.text} </p>
-                    <div className="row inactive urls" style={{
-                        alignItems: "center",
-                        gap: 10,
-                        marginTop: 10,
-                    }}>
-                        <img src="/res/out.svg" style={{
-                            ...outSize
-                        }}/>
-                        <p> сайт </p>
+                    <div className="partners-titles column">
+                        <h3> {content.name} </h3>
+                        <p> {content.title} </p>
                     </div>
                 </div>
+                <p> {content.text} </p>
+                <div className="row inactive urls" style={{
+                    alignItems: "center",
+                    gap: 10,
+                    marginTop: 10,
+                }}>
+                    <Image src="/res/out.svg" width={outSize.width} height={outSize.height} alt="out"/>
+                    <p> сайт </p>
+                </div>
             </div>
-            )
-            }
+        </div>
+    )
+}
 
-            export default PartnersPlaceholder
+export default PartnersPlaceholder
