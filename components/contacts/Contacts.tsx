@@ -1,7 +1,4 @@
 import React, {FC} from "react";
-import "./Contacts.sass"
-import {ReactComponent as ITMO} from  "../../res/itmo.svg"
-import {ReactComponent as Out} from  "../../res/out.svg"
 
 export interface ContactsProps {
 
@@ -29,16 +26,16 @@ const Contacts: FC<ContactsProps> = () => {
                     <p className="social inactive">instagram</p>
                     <p className="social inactive">vkontakte</p>
                     <p className="social inactive">youtube</p>
-                    <ITMO id="itmo" />
+                    <img src="/res/itmo.svg" id="itmo" />
                     <div className="out">
                         <div className="row">
                             { /* TODO fix anchor  */ }
-                            <Out/>
+                            <img src="/res/out.svg" />
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a> политика по обработке персональных данных </a>
                         </div>
                         <div className="row">
-                            <Out/>
+                            <img src="/res/out.svg"/>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a> правила использования информации в доменной зоне </a>
                         </div>

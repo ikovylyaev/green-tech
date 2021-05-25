@@ -1,7 +1,5 @@
 import React, {FC} from "react";
-import "./PartnersPlaceholder.sass"
-import {ReactComponent as Flash} from "../../../../../res/flash.svg";
-import {PartnersData} from "../../../../../utils/types";
+import {PartnersData} from "../../../../utils/types";
 
 export interface PartnersPlaceholderProps {
     content: PartnersData
@@ -22,7 +20,7 @@ const PartnersPlaceholder: FC<PartnersPlaceholderProps> = ({content}: PartnersPl
             }}/>
             <div className="div3">
                 <div className="header">
-                    <Flash />
+                    <img src="/res/flash.svg" />
                     <div>
                         <p> {content.title} </p>
                         <h1> {content.title} </h1>

@@ -1,6 +1,5 @@
 import React, {ReactElement, ReactNode, useState} from 'react';
-import './AboutList.sass';
-import {PlaceholdersTypes} from "../../../utils/types";
+import {PlaceholdersTypes} from "../../utils/types";
 
 export interface AboutListProps<T> {
     title: string,

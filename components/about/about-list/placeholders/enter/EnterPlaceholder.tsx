@@ -1,6 +1,5 @@
 import React, {FC, useState} from "react";
-import "./EnterPlaceholder.sass"
-import {EnterData} from "../../../../../utils/types";
+import {EnterData} from "../../../../utils/types";
 
 export interface EnterPlaceholderProps {
     content: EnterData

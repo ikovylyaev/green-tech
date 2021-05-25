@@ -1,8 +1,5 @@
 import React from "react";
 import {FC} from "react";
-import "./Main.sass"
-import logo from "../../res/logo.svg"
-import pic from "../../res/pic.png"
 
 const Main: FC = () => {
 
@@ -25,7 +22,7 @@ const Main: FC = () => {
                     </div>
                 </div>
                 <div>
-                    <img id="pic" src={pic} alt=""/>
+                    <img id="pic" src="/res/pic.png" alt=""/>
                 </div>
             </div>
         </>
@@ -36,7 +33,7 @@ export const Header: FC = (props) => {
     return (
         <header>
             <div id="header-logo">
-                <img src={logo} alt=""/>
+                <img src="/res/logo.svg" alt=""/>
             </div>
             <div id="header-search">
                 поиск

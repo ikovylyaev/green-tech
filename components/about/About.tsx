@@ -1,13 +1,11 @@
 import React, {FC} from "react";
-import "./About.sass"
-import {ReactComponent as AboutLogo} from "../../res/about.svg"
-import {ReactComponent as AboutFlash} from "../../res/flash.svg"
 import AboutList from "./about-list/AboutList";
-import {DataHelper} from "../../utils/DataHelper";
-import {EnterData, PartnersData, ValuesData} from "../../utils/types";
+import {DataHelper} from "../utils/DataHelper";
+import {EnterData, PartnersData, ValuesData} from "../utils/types";
 import PartnersPlaceholder from "./about-list/placeholders/partners/PartnersPlaceholder";
 import ValuesPlaceholder from "./about-list/placeholders/values/ValuesPlaceholder";
 import EnterPlaceholder from "./about-list/placeholders/enter/EnterPlaceholder";
+import Image from "next/image";
 
 const About: FC = () => {
 
@@ -26,8 +24,8 @@ const About: FC = () => {
                         направления, связанные с чистыми технологиями, в том числе
                         и энергетикой, нацеленных на сохранение природы. </p>
                 </div>
-                <AboutLogo id="about-logo"/>
-                <AboutFlash id="about-flash" style={{width: 107, height: 163}}/>
+                <Image width={415} height={415} src="/res/about.svg" id="about-logo" alt=""/>
+                <Image width={107} height={163} src="/res/flash.svg" alt="" id="about-flash"/>
             </div>
             <AboutList title="чему мы учим" groups={DataHelper.teach()}/>
             <AboutList

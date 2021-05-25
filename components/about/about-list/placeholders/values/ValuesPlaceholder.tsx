@@ -1,7 +1,5 @@
 import React, {FC} from "react";
-import {ValuesData} from "../../../../../utils/types";
-import "./ValuesPlaceholder.sass"
-import {ReactComponent as Circle} from "../../../../../res/cicrlce.svg";
+import {ValuesData} from "../../../../utils/types";
 
 export interface ValuesPlaceholderProps {
     content: ValuesData
@@ -10,7 +8,7 @@ export interface ValuesPlaceholderProps {
 const ValuesPlaceholder: FC<ValuesPlaceholderProps> = ({content}: ValuesPlaceholderProps) => {
     return (
         <div className="values-grid">
-            <Circle id="values-circle"/>
+            <img src="/res/circle.svg" id="values-circle"/>
             <div style={{
                 backgroundImage: `url(${content.image})`,
                 backgroundPosition: "center center",
