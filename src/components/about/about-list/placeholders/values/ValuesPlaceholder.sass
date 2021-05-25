@@ -1,16 +1,13 @@
 @import "src/components/constants"
 
-@mixin single-line-text($size)
-  font-size: $size
-  line-height: $size * 0.75
-
-
 .values-grid
   display: flex
   flex-direction: row
   justify-content: center
   align-items: stretch
   gap: 52px
+  @media screen and (max-width: $mobile-max-width)
+    gap: 10px
   position: relative
 
   #values-circle
@@ -21,17 +18,15 @@
     animation: spin-top-left 60s linear infinite
 
     @keyframes spin-top-left
-        0%
-          transform: rotate(0) translateX(-50%) translateY(-50%)
-        100%
-          transform: rotate(360deg) translateX(-50%) translateY(-50%)
+      0%
+        transform: rotate(0) translateX(-50%) translateY(-50%)
+      100%
+        transform: rotate(360deg) translateX(-50%) translateY(-50%)
+
 
   & > *
     flex: 1
 
-  .content
-    height: 400px
-    width: 40px
 
     .values-number
       @include single-line-text(4rem)
@@ -41,5 +36,5 @@
       margin-bottom: 20px
 
     p
-      font-size: 1.1rem
+      font-size: 1rem
 

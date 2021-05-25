@@ -14,6 +14,8 @@
 
   #about-us-info
     margin-top: 8%
+    @media screen and (max-width: $mobile-max-width)
+      margin-top: 25%
     margin-bottom: 6%
     display: inline-flex
     flex-direction: row
@@ -27,8 +29,7 @@
       font-size: 2.2rem
 
     #about-flash
-      position: relative
-      right: 415 / 2 + 107 / 2 + px
+      position: absolute
 
 
     #about-logo
@@ -39,5 +40,23 @@
           transform: rotate(0)
         100%
           transform: rotate(360deg)
+
+
+
+@media screen and (max-width: $mobile-max-width)
+  #about-content
+    width: 100vw
+
+    #about-us-info
+      display: flex
+      flex-direction: column
+      align-items: stretch
+      width: 90vw
+      margin-left: 6vw
+
+      & > div
+        width: 100%
+
+
 
 

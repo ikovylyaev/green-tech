@@ -26,8 +26,10 @@ const About: FC = () => {
                         направления, связанные с чистыми технологиями, в том числе
                         и энергетикой, нацеленных на сохранение природы. </p>
                 </div>
-                <AboutLogo id="about-logo"/>
-                <AboutFlash id="about-flash" style={{width: 107, height: 163}}/>
+                <div className="center">
+                    <AboutLogo id="about-logo"/>
+                    <AboutFlash id="about-flash" style={{width: 107, height: 163}}/>
+                </div>
             </div>
             <AboutList title="чему мы учим" groups={DataHelper.teach()}/>
             <AboutList
