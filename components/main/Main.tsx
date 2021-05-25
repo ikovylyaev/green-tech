@@ -1,6 +1,5 @@
 import React from "react";
 import {FC} from "react";
-import "./Main.sass"
 import {isMobileOnly} from "react-device-detect";
 
 const Main: FC = () => {
@@ -38,7 +37,7 @@ export const Header: FC = (props) => {
         return (
             <header className="row">
                 <div className="column left">
-                    <img style={{width: 120}} src={logo} alt=""/>
+                    <img style={{width: 120}} src='/res/logo.svg' alt=""/>
                     <p className="inactive"> поиск </p>
                 </div>
                 <div className="column right">

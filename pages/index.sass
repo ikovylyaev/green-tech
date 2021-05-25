@@ -1,3 +1,4 @@
+@use 'sass:math'
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap')
 
 .App
@@ -63,7 +64,7 @@ $mobile-max-width: 600px
 
     img
       height: 100%
-      width: (4 / 5) * 100%
+      width: math.div(4, 5) * 100%
       @media screen and (max-width: $mobile-max-width)
         width: 100%
         box-sizing: border-box
@@ -213,7 +214,7 @@ header
 
 .contacts-right
   margin-top: 26px
-  width: (4 / 12) * 100vw
+  width: math.div(4, 12) * 100vw
   text-align: left
 
   p.social
@@ -240,7 +241,7 @@ header
   text-align: left
   margin-top: 26px
   margin-left: calc((1 / 12) * 100vw + #{$sides})
-  width: (7 / 12) * 100vw
+  width: math.div(4, 12) * 100vw
 
   p
     display: inline-block
@@ -382,7 +383,7 @@ header
   .about-elements
     font-size: 36px
     text-align: left
-    margin-left: (1 / 12) * 100vw
+    margin-left: math.div(1, 12) * 100vw
     display: inline-block
 
 
