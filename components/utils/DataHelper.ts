@@ -1,4 +1,8 @@
 import {AboutListInfo, EnterData, PartnersData, ValuesData} from "./types"
+import left from "../res/top.png"
+import top from "../res/left.png"
+import values from "../res/values.png"
+
 
 export class DataHelper {
 
@@ -32,66 +36,73 @@ export class DataHelper {
             ],
             content: [
                 {
-                    imageLeft: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    imageTop: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                    imageLeft: left,
+                    imageTop: top,
                     title: "glebik8",
-                    name: "1917",
+                    name: "sample",
                     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
-                    imageLeft: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    imageTop: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+
+                    imageLeft: left,
+                    imageTop: top,
                     title: "v8tenko",
-                    name: "1924",
+                    name: "2021",
                     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
-                    imageLeft: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    imageTop: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    title: "i love anime",
-                    name: "1962",
+
+                    imageLeft: left,
+                    imageTop: top,
+                    title: "sample title",
+                    name: "green tech",
                     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
-                    imageLeft: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    imageTop: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+
+                    imageLeft: left,
+                    imageTop: top,
                     title: "glebik8",
-                    name: "1917",
+                    name: "green tech",
                     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
-                    imageLeft: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    imageTop: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+
+                    imageLeft: left,
+                    imageTop: top,
                     title: "v8tenko",
-                    name: "1924",
+                    name: "itmo",
                     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
-                    imageLeft: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    imageTop: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    title: "i love anime",
-                    name: "1962",
+
+                    imageLeft: left,
+                    imageTop: top,
+                    title: "sample title",
+                    name: "itmo",
                     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619467170539-471df2183622?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
-                    imageLeft: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    imageTop: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+
+                    imageLeft: left,
+                    imageTop: top,
                     title: "glebik8",
-                    name: "1917",
+                    name: "smaple title",
                     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1619525837382-c7015c20e565?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
                 {
-                    imageLeft: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-                    imageTop: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+
+                    imageLeft: left,
+                    imageTop: top,
                     title: "v8tenko",
-                    name: "1924",
+                    name: "random title",
                     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
                     siteUrl: "https://images.unsplash.com/photo-1532344110095-8c22cdcfc71c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 },
@@ -111,26 +122,26 @@ export class DataHelper {
                 {
                     number: 1,
                     title: "открытость",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
-                    image: "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80"
+                    text: "наша цель - создание активных, онкурентноспособных специалистов, которые могут применить свои знания в различных сферах во время обучения и после него",
+                    image: values
                 },
                 {
                     number: 2,
                     title: "интеграция",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
-                    image: "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80"
+                    text: "наша цель - создание активных, онкурентноспособных специалистов, которые могут применить свои знания в различных сферах во время обучения и после него",
+                    image: values
                 },
                 {
                     number: 3,
                     title: "личность",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
-                    image: "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80"
+                    text: "наша цель - создание активных, онкурентноспособных специалистов, которые могут применить свои знания в различных сферах во время обучения и после него",
+                    image: values
                 },
                 {
                     number: 4,
                     title: "любовь",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at beatae blanditiis consequatur consequuntur debitis ducimus, exercitationem illo libero nam neque quam ratione rerum voluptas!",
-                    image: "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80"
+                    text: "наша цель - создание активных, онкурентноспособных специалистов, которые могут применить свои знания в различных сферах во время обучения и после него",
+                    image: values
                 }
             ]
         }

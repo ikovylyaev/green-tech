@@ -1,6 +1,6 @@
-$sides: 50px
+$sides: 4vw
 $header-top: 30px
-
+$mobile-max-width: 600px
 
 .column
   display: flex
@@ -9,3 +9,16 @@ $header-top: 30px
 .row
   display: flex
   flex-direction: row
+
+.center
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin single-line-text($size)
+  font-size: $size
+  line-height: $size * 0.75
+
+@media screen and (max-width: $mobile-max-width)
+  html
+    font-size: 9px

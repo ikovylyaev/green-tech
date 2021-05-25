@@ -1,8 +1,8 @@
 @import "components/constants"
 
 .about-list
-  width: 100%
-  display: inline-flex
+  width: calc(95% - #{$sides})
+  display: flex
   flex-direction: row
   margin-bottom: 15vh
 
@@ -15,15 +15,19 @@
     display: flex
     flex-direction: column
     justify-content: stretch
+    align-content: flex-start
+
 
   .about-content > div
     height: 100%
-    width: 85%
+    width: 100%
+
 
   .about-elements
     font-size: 36px
     text-align: left
     margin-left: (1 / 12) * 100vw
+    display: inline-block
 
 
     .about-title
@@ -54,3 +58,19 @@
   text-align: left
   margin-left: $sides
   font-size: 2.6rem
+
+@media screen and (max-width: $mobile-max-width)
+  .about-list
+    margin-bottom: 8vh
+
+    .about-titles
+      li
+        max-width: 90%
+
+  .about-elements
+    transition: flex 1s
+    flex: 10 10
+
+    &.closed
+      overflow: hidden
+

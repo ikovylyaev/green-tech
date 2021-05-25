@@ -24,8 +24,10 @@ const About: FC = () => {
                         направления, связанные с чистыми технологиями, в том числе
                         и энергетикой, нацеленных на сохранение природы. </p>
                 </div>
-                <Image width={415} height={415} src="/res/about.svg" id="about-logo" alt=""/>
-                <Image width={107} height={163} src="/res/flash.svg" alt="" id="about-flash"/>
+                <div className="center">
+                    <Image width={415} height={415} src="/res/about.svg" id="about-logo" alt=""/>
+                    <Image width={107} height={163} src="/res/flash.svg" alt="" id="about-flash"/>
+                </div>
             </div>
             <AboutList title="чему мы учим" groups={DataHelper.teach()}/>
             <AboutList

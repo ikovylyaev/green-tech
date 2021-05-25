@@ -1,5 +1,6 @@
 import React, {ReactElement, ReactNode, useState} from 'react';
 import {PlaceholdersTypes} from "../../utils/types";
+import {isMobileOnly} from 'react-device-detect';
 
 export interface AboutListProps<T> {
     title: string,
@@ -48,6 +49,8 @@ function AboutList({
                                 cls += options?.line ? ' line' : ''
                                 cls += children && index !== click ? ' inactive' : ''
                                 cls += options?.wordsToUnderLine === 'all' ? ' underline' : ''
+                                // TODO update here
+                                const mobileInfo = children && index === click ? "" : "closed"
                                 const text = options?.wordsToUnderLine && element[0]?.split(' ').map(t => {
                                     if (
                                         t === options?.wordsToUnderLine || (options?.wordsToUnderLine as string[]).includes(t)
@@ -57,17 +60,21 @@ function AboutList({
                                     return ` ${t} `
                                 })
                                 return (
-                                    <div key={index} className="about-elements">
+                                    <div key={index} className={`about-elements ${mobileInfo ? "closed" : ""}`}>
                                         <p
                                             className={cls}
                                             onClick={() => setClick(index)}
                                         > {text ?? element[0]}
                                         </p>
-                                        <ul>
+                                        {element[1] && <ul>
                                             {element[1] && element[1].map(text => {
                                                 return <li key={text}> {text} </li>
                                             })}
-                                        </ul>
+                                        </ul>}
+                                        {children && isMobileOnly && click === index &&
+                                        <div className="about-content">
+                                            {click !== null && children[click]}
+                                        </div>}
                                         {index === groups.length - 1
                                             ? options?.after && options?.after()
                                             : null
@@ -79,7 +86,7 @@ function AboutList({
                     </div>
                 </div>
                 {
-                    children
+                    children && !isMobileOnly
                     && <div className="about-content">
                         {click !== null && children[click]}
                     </div>
