@@ -1,0 +1,62 @@
+@import "../constants"
+
+#about-content
+  display: inline-block
+
+  & > div
+    margin-left: $sides
+
+    & > div:first-child
+      width: calc(100% - 2 * #{$sides} - 415px)
+
+    p
+      text-align: left
+
+  #about-us-info
+    margin-top: 8%
+    @media screen and (max-width: $mobile-max-width)
+      margin-top: 25%
+    margin-bottom: 6%
+    display: inline-flex
+    flex-direction: row
+    align-items: center
+
+    p:first-child
+      font-size: 2.8rem
+      margin-bottom: 2%
+
+    p.text
+      font-size: 2.2rem
+
+    #about-flash
+      position: absolute
+
+
+    #about-logo
+      animation: spin 60s linear infinite
+
+      @keyframes spin
+        0%
+          transform: rotate(0)
+        100%
+          transform: rotate(360deg)
+
+
+
+@media screen and (max-width: $mobile-max-width)
+  #about-content
+    width: 100vw
+
+    #about-us-info
+      display: flex
+      flex-direction: column
+      align-items: stretch
+      width: 90vw
+      margin-left: 6vw
+
+      & > div
+        width: 100%
+
+
+
+

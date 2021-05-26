@@ -1,0 +1,76 @@
+@import "src/components/constants"
+
+.about-list
+  width: calc(95% - #{$sides})
+  display: flex
+  flex-direction: row
+  margin-bottom: 15vh
+
+  .about-content,
+  .about-li
+    flex: 1
+
+
+  .about-titles
+    display: flex
+    flex-direction: column
+    justify-content: stretch
+    align-content: flex-start
+
+
+  .about-content > div
+    height: 100%
+    width: 100%
+
+
+  .about-elements
+    font-size: 36px
+    text-align: left
+    margin-left: (1 / 12) * 100vw
+    display: inline-block
+
+
+    .about-title
+      margin: 0.5rem 0
+      font-size: 1.8rem
+
+
+      &.underline
+        text-decoration: underline
+
+      &.line:before
+        content: "-"
+        display: inline-block
+
+  li
+    list-style-type: none
+    display: block
+    margin: 0.8rem 0
+    max-width: 60%
+    font-size: 1.8rem
+
+    &:before
+      content: "-"
+      display: inline-block
+
+
+.text
+  text-align: left
+  margin-left: $sides
+  font-size: 2.6rem
+
+@media screen and (max-width: $mobile-max-width)
+  .about-list
+    margin-bottom: 8vh
+
+    .about-titles
+      li
+        max-width: 90%
+
+  .about-elements
+    transition: flex 1s
+    flex: 10 10
+
+    &.closed
+      overflow: hidden
+

@@ -1,0 +1,53 @@
+@import "src/components/constants"
+
+.partners-grid
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-template-rows: repeat(2, 1fr)
+
+.div1
+  grid-area: 1 / 1 / 3 / 2
+
+.div2
+  grid-area: 1 / 2 / 2 / 3
+
+.div3
+  grid-area: 2 / 2 / 3 / 3
+  box-sizing: border-box
+  text-align: left
+
+  .header
+    display: flex
+    flex-direction: row
+    margin-top: 20px
+    @media screen and (max-width: $mobile-max-width)
+      margin-top: 10px
+
+    & > *
+      margin-left: 20px
+      @media screen and (max-width: $mobile-max-width)
+        margin-left: 10px
+
+    .partners-titles
+      justify-content: center
+      p
+        @include single-line-text(2.2rem)
+        margin-top: 5px
+
+
+      h3
+        @include single-line-text(2.1rem)
+        font-weight: 500
+
+  $left: 15px
+  & > p
+    padding: 15px 0 0 $left
+    font-size: 1.1rem
+
+  .urls
+    margin-left: $left
+    font-size: 1.1rem
+
+@media screen and (max-width: $mobile-max-width)
+  .div3 > p
+    font-size: 1.2rem

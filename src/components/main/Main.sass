@@ -1,0 +1,159 @@
+@import "./../constants"
+
+#main
+  width: 100%
+  min-height: 100vh
+  display: inline-flex
+  flex-direction: row
+
+  > div
+    flex: 1
+    height: 100vh
+    display: flex
+    justify-content: flex-start
+    align-items: flex-start
+    flex-direction: column
+
+    img
+      height: 100%
+      width: (4 / 5) * 100%
+      @media screen and (max-width: $mobile-max-width)
+        width: 100%
+        box-sizing: border-box
+        padding: 0 $sides
+      object-fit: cover
+
+  #main-left
+    $content-width: calc(100% - 2 * #{$sides})
+    display: flex
+    justify-content: center
+    align-items: flex-start
+
+    .uni-info
+      font-size: 1.1rem
+
+    & > div:first-child
+      display: inline-block
+      margin-left: $sides
+      width: $content-width
+
+      & > #uni-desc
+        font-size: 2.8rem
+        white-space: pre-line
+        line-height: 3rem
+        text-align: justify
+
+
+    & > #refs
+      display: flex
+      flex-direction: row
+      width: $content-width
+      margin-left: $sides
+      position: relative
+      top: 5%
+
+      .uni-bottom
+        font-size: 2.2rem
+
+      & > p
+        position: relative
+
+        &:nth-child(2)
+          left: calc(#{$content-width} / 2)
+          transform: translateX(-100%)
+
+
+
+
+header
+  position: absolute
+  top: 0
+  left: 0
+  display: inline-flex
+  width: 100%
+  box-sizing: border-box
+  flex-direction: row
+  justify-content: center
+  padding: $header-top 3% 0
+
+  .header-settings
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    align-items: center
+
+  #header-logo
+    @extend .header-settings
+    flex: 4
+
+  #header-search
+    @extend .header-settings
+    font-size: 1.7rem
+    flex: 5
+
+  #header-buttons
+    @extend .header-settings
+    flex: 3
+    justify-content: space-between
+
+    .langs
+      width: 20%
+      display: flex
+      justify-content: space-between
+      font-size: 1.1rem
+
+
+
+    h1
+      font-size: 1.7rem
+
+.float-left
+  float: left
+
+  &:after
+    content: ""
+    padding-right: 50px
+
+.inactive
+  opacity: .4
+
+@media screen and (max-width: $mobile-max-width)
+  header
+    position: static
+    margin-top: 8%
+    margin-bottom: 10%
+    width: 100vw
+    justify-content: space-between
+    align-items: stretch
+    box-sizing: border-box
+    padding: 0 $sides
+
+    p
+      font-size: 2.1rem
+
+    .left
+      gap: 2vh
+
+    .right
+      justify-content: space-between
+
+      .row
+        position: relative
+        left: -50%
+        top: 0
+        width: 150%
+        justify-content: space-between
+
+  #main
+    flex-direction: column-reverse
+    min-height: 0
+    gap: 20px
+
+    #main-right
+      display: flex
+      justify-content: center
+      align-items: center
+
+    .uni-info
+      display: inline
+      max-width: 50%
